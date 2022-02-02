@@ -15,6 +15,8 @@ branches:
         dismissal_restrictions:
           users: []
           teams: []
-      required_status_checks: null
+      required_status_checks:
+        strict: true
+        contexts: []
       restrictions: null
       enforce_admins: false
